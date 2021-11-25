@@ -12,9 +12,9 @@
 		182BC37F27479BC300887A9C /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC37E27479BC300887A9C /* Document.m */; };
 		182BC38127479BC600887A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182BC38027479BC600887A9C /* Assets.xcassets */; };
 		182BC38427479BC600887A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BC38227479BC600887A9C /* Main.storyboard */; };
-		182BC38727479BC600887A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC38627479BC600887A9C /* main.m */; };
 		182BC39227479BC600887A9C /* Laboratorna_7_1_RECTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC39127479BC600887A9C /* Laboratorna_7_1_RECTests.m */; };
 		182BC39D27479BC600887A9C /* Laboratorna_7_1_RECUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BC39C27479BC600887A9C /* Laboratorna_7_1_RECUITests.m */; };
+		182BC3AC27479BE800887A9C /* Laba_7_1_REC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182BC3AA27479BE800887A9C /* Laba_7_1_REC.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		182BC38027479BC600887A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182BC38327479BC600887A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182BC38527479BC600887A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182BC38627479BC600887A9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		182BC38827479BC600887A9C /* Laboratorna_7_1_REC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_7_1_REC.entitlements; sourceTree = "<group>"; };
 		182BC38D27479BC600887A9C /* Laboratorna_7.1_RECTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_7.1_RECTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BC39127479BC600887A9C /* Laboratorna_7_1_RECTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_7_1_RECTests.m; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		182BC39827479BC600887A9C /* Laboratorna_7.1_RECUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_7.1_RECUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BC39C27479BC600887A9C /* Laboratorna_7_1_RECUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_7_1_RECUITests.m; sourceTree = "<group>"; };
 		182BC39E27479BC600887A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182BC3AA27479BE800887A9C /* Laba_7_1_REC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Laba_7_1_REC.cpp; sourceTree = "<group>"; };
+		182BC3AB27479BE800887A9C /* Laba_7_1_REC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Laba_7_1_REC.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		182BC36B27479BC300887A9C = {
 			isa = PBXGroup;
 			children = (
+				182BC3AA27479BE800887A9C /* Laba_7_1_REC.cpp */,
+				182BC3AB27479BE800887A9C /* Laba_7_1_REC.hpp */,
 				182BC37627479BC300887A9C /* Laboratorna_7.1_REC */,
 				182BC39027479BC600887A9C /* Laboratorna_7.1_RECTests */,
 				182BC39B27479BC600887A9C /* Laboratorna_7.1_RECUITests */,
@@ -112,7 +115,6 @@
 				182BC38027479BC600887A9C /* Assets.xcassets */,
 				182BC38227479BC600887A9C /* Main.storyboard */,
 				182BC38527479BC600887A9C /* Info.plist */,
-				182BC38627479BC600887A9C /* main.m */,
 				182BC38827479BC600887A9C /* Laboratorna_7_1_REC.entitlements */,
 			);
 			path = Laboratorna_7.1_REC;
@@ -264,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182BC3AC27479BE800887A9C /* Laba_7_1_REC.cpp in Sources */,
 				182BC37F27479BC300887A9C /* Document.m in Sources */,
 				182BC37C27479BC300887A9C /* ViewController.m in Sources */,
-				182BC38727479BC600887A9C /* main.m in Sources */,
 				182BC37927479BC300887A9C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
